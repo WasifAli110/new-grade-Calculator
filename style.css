@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.container{
+    border: 2px solid black;
+    width: 345px;
+    position: fixed;
+    left: 450px;
+    top: 110px;
+    border-radius: 5px;
+}
+
+
+#c{
+    width: 335px;
+    border-radius: 10px;
+}
+
+#mt{
+    width: 335px;
+    border-radius: 10px;
+}
+
+#ph{
+    width: 335px;
+    border-radius: 10px;
+}
+
+#ja{
+    width: 335px;
+    border-radius: 10px;
+}
+
+#csa{
+    width: 335px;
+    border-radius: 10px;
+}
+
