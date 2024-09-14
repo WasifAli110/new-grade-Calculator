@@ -2,43 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    text-transform: capitalize;
-    font-size: 35px;
 }
+
 
 .container{
     border: 2px solid black;
-    width: 345px;
+    border-radius: 6px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 200px;
+    height: 275px;
     position: fixed;
-    left: 450px;
-    top: 110px;
-    border-radius: 5px;
+    top: 10%;
+    left: 40%;
 }
 
-
-#c{
-    width: 335px;
-    border-radius: 10px;
+.left-box h1{
+ text-align: center;
 }
 
-#mt{
-    width: 335px;
-    border-radius: 10px;
+.p-g-t{
+    text-align: center;
 }
 
-#ph{
-    width: 335px;
-    border-radius: 10px;
+.right-box{
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ gap: 2px;
 }
 
-#ja{
-    width: 335px;
-    border-radius: 10px;
+.result h2{
+ text-align: center;
 }
 
-#csa{
-    width: 335px;
-    border-radius: 10px;
+@media screen and (max-width:300px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container{
+        border: 2px solid black;
+        width: 200px;
+        height: 270px;
+        position: fixed;
+        top: 10%;
+        left: 20px;
+    }
+    
+    .left-box h1{
+     text-align: center;
+    }
+    
+    .p-g-t{
+        text-align: center;
+    }
+    
+    .right-box{
+     display: flex;
+     justify-content: center; 
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 2px;
+    }
+    
+    .result h2{
+     text-align: center;
+    }
 }
 
+@media screen and (max-width:425px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container{
+        border: 2px solid black;
+        width: 200px;
+        height: 270px;
+        position: fixed;
+        top: 10%;
+        left: 24%;
+    }
+    
+    .left-box h1{
+     text-align: center;
+    }
+    
+    .p-g-t{
+        text-align: center;
+    }
+    
+    .right-box{
+     display: flex;
+     justify-content: center; 
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 2px;
+    }
+    
+    .result h2{
+     text-align: center;
+    }
+}
